@@ -5,7 +5,7 @@ tables** and **fact tables** for specific business metrics.
 
 ---
 
-**1.gold.dim_customers**
+**1. gold.dim_customers**
 **Purpose: Stores customer details enriched with demographic and geographic data.**
 **Columns:**
 | Column Name | Data Type | Description |
@@ -23,9 +23,10 @@ tables** and **fact tables** for specific business metrics.
 
 ---
 
-**2.gold_dim_products**
-**Purpose: Provides information about products and their attributes**
+**2. gold_dim_products**
+**Purpose: Provides information about products and their attributes.**
 **Columns:**
+
 | Column Name | Data Type | Description |
 | :---: | :---: | :---: |
 | product_key | INT | Surrogate key uniquely identifying each product record in the dimension table |
@@ -42,7 +43,7 @@ tables** and **fact tables** for specific business metrics.
 
 ---
 
-**3.gold.fact_sales**  
+**3. gold.fact_sales**  
 **Purpose: Stores transactional sales data and key metrics for business analysis**  
 **Columns:**  
 
